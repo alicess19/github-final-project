@@ -1,15 +1,14 @@
 ]633;E;echo '$ git branch -avv';e302ce09-8c5e-4e6b-8e21-4bf87ff134f9]633;C$ git branch -avv
   bug-fix-revert                c208301 [origin/bug-fix-revert] Revert "Fix typo in README footer"
   bug-fix-typo                  2e74bbc [origin/bug-fix-typo] Fix typo in README footer
-* main                          e01b214 [origin/main] Add merge branches output
+* main                          3979768 [origin/main] Add pull request and branch status outputs
   remotes/origin/HEAD           -> origin/main
   remotes/origin/bug-fix-revert c208301 Revert "Fix typo in README footer"
   remotes/origin/bug-fix-typo   2e74bbc Fix typo in README footer
-  remotes/origin/main           e01b214 Add merge branches output
+  remotes/origin/main           3979768 Add pull request and branch status outputs
   remotes/upstream/HEAD         -> upstream/main
   remotes/upstream/main         ad95b0a Create close_pr.yml
 
 $ git status --short --branch
 ## main...origin/main
-?? bug-fix-revert
-?? github-branches
+ M github-branches
