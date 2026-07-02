@@ -1,0 +1,8 @@
+]633;E;echo '$ curl -s -H "Authorization: Bearer $(gh auth token)" https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/'"$PR_NUMBER"' | jq '\\''{number, state, head_branch: .head.ref, head_repository: .head.repo.full_name, base_repository: .base.repo.full_name}'\\''';e302ce09-8c5e-4e6b-8e21-4bf87ff134f9]633;C$ curl -s -H "Authorization: Bearer $(gh auth token)" https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/8957 | jq '{number, state, head_branch: .head.ref, head_repository: .head.repo.full_name, base_repository: .base.repo.full_name}'
+{
+  "number": 8957,
+  "state": "closed",
+  "head_branch": "bug-fix-revert",
+  "head_repository": "alicess19/mcino-Introduction-to-Git-and-GitHub",
+  "base_repository": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
+}
