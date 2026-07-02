@@ -1,11 +1,11 @@
 ]633;E;echo '$ git branch -avv';e302ce09-8c5e-4e6b-8e21-4bf87ff134f9]633;C$ git branch -avv
-  bug-fix-revert                c208301 [origin/bug-fix-revert] Revert "Fix typo in README footer"
-  bug-fix-typo                  2e74bbc [origin/bug-fix-typo] Fix typo in README footer
-* main                          3979768 [origin/main] Add pull request and branch status outputs
+  bug-fix-revert                90067fa [origin/bug-fix-revert] Revert "Fix typo in README footer"
+  bug-fix-typo                  1993c59 [origin/bug-fix-typo] Fix typo in README footer
+* main                          89a18c9 [origin/main] Update pull request verification output
   remotes/origin/HEAD           -> origin/main
-  remotes/origin/bug-fix-revert c208301 Revert "Fix typo in README footer"
-  remotes/origin/bug-fix-typo   2e74bbc Fix typo in README footer
-  remotes/origin/main           3979768 Add pull request and branch status outputs
+  remotes/origin/bug-fix-revert 90067fa Revert "Fix typo in README footer"
+  remotes/origin/bug-fix-typo   1993c59 Fix typo in README footer
+  remotes/origin/main           89a18c9 Update pull request verification output
   remotes/upstream/HEAD         -> upstream/main
   remotes/upstream/main         ad95b0a Create close_pr.yml
 
